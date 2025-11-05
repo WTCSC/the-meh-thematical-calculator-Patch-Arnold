@@ -1,3 +1,7 @@
+#The Testing page for the calculator. It makes sure that the functions run
+#properly and does not interact with the input values.
+#All notes below using """ """ notation were previous notes,
+#and were not made to follow the rules of the "dude where is your comments?" #assignment
 import pytest
 from mehmatical import add, subtract, mult, div
 
