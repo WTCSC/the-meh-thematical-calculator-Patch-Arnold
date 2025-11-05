@@ -59,6 +59,8 @@ def main(): #Explained along with main code at the bottom.
         print("You did not pick one of the equations. Cmon.")
         exit
 
-#Checks for user, and impliments the input code if there is a user detected. #This is done becuase when pytest is ran it requires to not have the input #section of the code.
+#Checks for user, and impliments the input code if there is a user detected. 
+# #This is done becuase when pytest is ran it requires to not have the input
+#section of the code and breaks when it does.
 if __name__ == "__main__":
     main()
